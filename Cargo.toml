@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "mr_manager"
+publish = false
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.4.23"
+dotenvy = "0.15.6"
+poise = "0.5.2"
+
+[dependencies.tokio]
+features = ["full"]
+version = "1.25"
